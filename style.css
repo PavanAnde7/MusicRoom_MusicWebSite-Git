@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 7.5vh;
+    align-items: center;
+    padding: 0 5vw;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    
+}
+
+.logo {
+    width: 50px;
+    padding: 6px;
+}
+
+#logotext {
+    color: brown;
+}
+
+.ltext {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    width: 90%;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+}
+header ul div {
+    display: flex;
+    list-style: none;
+}
+
+header ul li {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    padding: 0 10px;
+    
+}
+header ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 82vh;
+}
+.left{
+    width: 40vw;
+    padding: 2.5vh 5vw;
+}
+.songlist{
+    position: absolute;
+    left: 5vw;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    width: 35vw;
+    height: 70vh;
+    overflow-y: hidden;
+    border-radius: 25px;
+}
+.songlist div{
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+.songlist div .poster img{
+    width: 50px;
+    padding-right: 15px;
+    border-radius: 25px;
+}
+.songlist div .poster p{
+    width: 18vw;
+    height: 20px;
+    overflow-y: hidden;
+}
+.songlist div .play img{
+    width: 50px;
+    padding-right: 15px;
+    border-radius: 25px;
+}
+.songlist div .time{
+    position: absolute;
+    right: 10px;
+}
+.songlist div .time img{
+    padding: 0 15px;
+    width: 20px;
+    cursor: pointer;
+
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    height: 10vh;
+    align-items: center;
+    padding: 0 5vw;
+    justify-content: center;
+    position: sticky;
+    bottom: 0;
+}
+
+#progressBar{
+    width: 90vw;
+    cursor: pointer;
+}
+.icons{
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    display: flex;
+    padding: 5px;
+}
+.pbuttons{
+    width: 90px;
+    padding: 10px;
+    display: flex;
+}
+.pbuttons img{
+    width: 20px;
+    padding: 0 5px;
+    display: flex;
+    cursor: pointer;
+}
+
+
+.icons .songInfo{
+    position: absolute;
+    left: 5vw;
+    display: flex;
+    align-items: center;
+    width: 25vw;
+}
+.icons .songInfo img{
+    width: 30px;
+    padding-right: 15px;
+    border-radius: 15px;
+
+}
